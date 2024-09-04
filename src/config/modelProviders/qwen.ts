@@ -58,14 +58,13 @@ const Qwen: ModelProviderCard = {
       displayName: 'Qwen VL Max',
       enabled: true,
       id: 'qwen-vl-max',
-      tokens: 8192,
+      tokens: 32_768,
       vision: true,
     },
     {
       description:
         '抢先体验即将升级的 qwen-vl-max 大模型。',
       displayName: 'Qwen VL Max 0809',
-      enabled: true,
       id: 'qwen-vl-max-0809',
       tokens: 32_768,
       vision: true,
