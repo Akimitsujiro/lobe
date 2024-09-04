@@ -59,7 +59,9 @@ const Header = memo(() => {
           </Tag>
         ))}
       </Center>
-      <div className={styles.desc}>{description}</div>
+      <div className={styles.desc} style={{ lineHeight: '1.32' }}>
+        {description}
+      </div>
       <Button block loading={isLoading} onClick={handleAddAgentAndConverse} type={'primary'}>
         {t('addAgentAndConverse')}
       </Button>
