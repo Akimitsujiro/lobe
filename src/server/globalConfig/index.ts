@@ -4,6 +4,7 @@ import { fileEnv } from '@/config/file';
 import { langfuseEnv } from '@/config/langfuse';
 import { getLLMConfig } from '@/config/llm';
 import {
+  FireworksAIProviderCard,
   GroqProviderCard,
   NovitaProviderCard,
   OllamaProviderCard,
@@ -76,6 +77,9 @@ export const getServerGlobalConfig = () => {
 
     ENABLED_TOGETHERAI,
     TOGETHERAI_MODEL_LIST,
+
+    ENABLED_FIREWORKSAI,
+    FIREWORKSAI_MODEL_LIST,
   } = getLLMConfig();
 
   const config: GlobalServerConfig = {
@@ -102,6 +106,16 @@ export const getServerGlobalConfig = () => {
       baichuan: { enabled: ENABLED_BAICHUAN },
       bedrock: { enabled: ENABLED_AWS_BEDROCK },
       deepseek: { enabled: ENABLED_DEEPSEEK },
+
+      fireworksai: {
+        enabled: ENABLED_FIREWORKSAI,
+        enabledModels: extractEnabledModels(FIREWORKSAI_MODEL_LIST),
+        serverModelCards: transformToChatModelCards({
+          defaultChatModels: FireworksAIProviderCard.chatModels,
+          modelString: FIREWORKSAI_MODEL_LIST,
+        }),
+      },
+
       google: { enabled: ENABLED_GOOGLE },
       groq: {
         enabled: ENABLED_GROQ,
