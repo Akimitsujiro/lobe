@@ -2,9 +2,9 @@
   "ModelSwitch": {
     "title": "Mô hình"
   },
-  "agentDefaultMessage": "Xin chào, tôi là **{{name}}**, bạn có thể bắt đầu trò chuyện với tôi ngay bây giờ, hoặc bạn có thể đến [Cài đặt trợ lý]({{url}}) để hoàn thiện thông tin của tôi.",
-  "agentDefaultMessageWithSystemRole": "Xin chào, tôi là **{{name}}**, {{systemRole}}. Hãy bắt đầu trò chuyện ngay!",
-  "agentDefaultMessageWithoutEdit": "Xin chào, tôi là **{{name}}**, chúng ta hãy bắt đầu trò chuyện nào!",
+  "agentDefaultMessage": "Xin chào, mình là **{{name}}**, bạn có thể bắt đầu trò chuyện với mình ngay bây giờ, hoặc bạn có thể đến [Cài đặt trợ lý]({{url}}) để hoàn thiện thông tin của tôi nhé!.",
+  "agentDefaultMessageWithSystemRole": "Xin chào, mình là **{{name}}**, {{systemRole}}. Hãy bắt đầu trò chuyện ngay!",
+  "agentDefaultMessageWithoutEdit": "Xin chào, mình là **{{name}}**, chúng ta hãy bắt đầu trò chuyện nào!",
   "agentsAndConversations": "Người hỗ trợ và cuộc trò chuyện",
   "backToBottom": "Quay về dưới cùng",
   "clearCurrentMessages": "Xóa tin nhắn hiện tại",
@@ -40,7 +40,7 @@
     "all": "Tất cả nội dung",
     "allFiles": "Tất cả tệp",
     "allKnowledgeBases": "Tất cả kho kiến thức",
-    "disabled": "Chế độ triển khai hiện tại không hỗ trợ đối thoại kho kiến thức, nếu muốn sử dụng, vui lòng chuyển sang triển khai cơ sở dữ liệu máy chủ hoặc sử dụng dịch vụ LobeChat Cloud",
+    "disabled": "Chế độ triển khai hiện tại không hỗ trợ đối thoại kho kiến thức, nếu muốn sử dụng, vui lòng chuyển sang triển khai cơ sở dữ liệu máy chủ hoặc sử dụng dịch vụ Đám mây LobeChat",
     "library": {
       "action": {
         "add": "Thêm",
@@ -95,7 +95,7 @@
     "imageType": "Định dạng ảnh",
     "screenshot": "Ảnh chụp màn hình",
     "settings": "Cài đặt xuất",
-    "shareToShareGPT": "Tạo liên kết chia sẻ ShareGPT",
+    "shareToShareGPT": "Tạo liên kết ShareToShareGPT",
     "withBackground": "Bao gồm hình nền",
     "withFooter": "Bao gồm chân trang",
     "withPluginInfo": "Bao gồm thông tin plugin",
